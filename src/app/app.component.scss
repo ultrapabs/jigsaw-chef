@@ -1,0 +1,24 @@
+span {
+  display: block;
+  float: left;
+}
+
+span.footer-icon {
+  font-size: 24px;
+  padding-top: 4px;
+  margin-left: 14px;
+}
+
+span.footer-text {
+  padding-top: 10px;
+  font-size: 12px;
+}
+
+ion-toolbar {
+  text-align: center;
+}
+
+.footer-about {
+  display: inline-block;
+  text-align: center;
+}

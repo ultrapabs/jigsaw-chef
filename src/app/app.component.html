@@ -1,0 +1,49 @@
+<ion-app>
+  <ion-menu side="start" menuId="first" contentId="main">
+    <ion-header>
+      <ion-toolbar color="secondary">
+        <ion-thumbnail slot="start">
+          <ion-img [src]="'assets/img/jsc_secondary_outline.png'"></ion-img>
+        </ion-thumbnail>
+        <ion-title>Menu</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+      <ion-list>
+        <ion-menu-toggle>
+          <ion-item [routerLink]="'/'">
+            <ion-label>Home</ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+        <ion-menu-toggle>
+          <ion-item [routerLink]="'/rfcfes'">
+            <ion-label>Run Fast. Cook Fast. Eat Slow.</ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+      </ion-list>
+    </ion-content>
+    <ion-footer>
+        <ion-toolbar>
+            <div class="footer-about">
+              <span class="footer-text">
+                Website by
+                <a href="https://www.paulbanel.com" target="_blank">Paul Banel</a>,
+                2020
+              </span>
+              <span class="footer-icon">
+                <a href="https://www.github.com/ultrapabs/jigsaw-chef" target="_blank">
+                  <ion-icon name="logo-github"></ion-icon>
+                </a>
+              </span>
+              <span class="footer-icon">
+                <a href="mailto:{{helpEmail}}">
+                  <ion-icon name="mail-outline"></ion-icon>
+                </a>
+              </span>
+            </div>
+        </ion-toolbar>
+      </ion-footer>
+  </ion-menu>
+
+  <ion-router-outlet id="main"></ion-router-outlet>
+</ion-app>

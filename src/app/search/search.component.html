@@ -1,0 +1,119 @@
+<ion-card *ngIf="!bookNotFound">
+  <ion-card-header class="page-header">
+    <ion-card-title *ngIf="!isMobile">{{book.title}}</ion-card-title>
+    <ion-card-subtitle *ngIf="isMobile">{{book.title}}</ion-card-subtitle>
+    {{book.description}}
+    <a href="{{book.url}}" target="_blank">Get the book here!</a>
+  </ion-card-header>
+</ion-card>
+
+<ion-card>
+  <ion-item>
+    <ion-icon name="search-outline" slot="start" size="small" color="secondary">
+    </ion-icon>
+    <ion-input placeholder="type to search + select ingredients" [(ngModel)]="filterText"></ion-input>
+    <ion-button (click)="clearFilterText()"
+                *ngIf="filterText.length > 0"
+                slot="end"
+                size="small"
+                fill="clear"
+                color="danger">
+      <ion-icon name="close-circle-outline"></ion-icon>
+    </ion-button>
+  </ion-item>
+  <ion-card-content class="ingredient-list" [ngClass]="{'ing-height-limit': !showMoreIngredients}">
+    <ng-container *ngFor="let ing of allIngredients | ingredient: selectedIngredients:filterText">
+      <ion-chip color="secondary" (click)="selectIngredient(ing)" outline>
+        <ion-label>{{ing}}</ion-label>
+      </ion-chip>
+    </ng-container>
+  </ion-card-content>
+  <ion-button (click)="toggleMoreIngredients()"
+              size="small"
+              expand="block"
+              color="secondary">{{ showMoreIngredients ? 'hide' : 'expand'}}</ion-button>
+  <ion-card-header *ngIf="!isMobile">
+    <ion-card-subtitle>Selected ingredients</ion-card-subtitle>
+  </ion-card-header>
+  <ion-card-content class="ingredient-list" [ngClass]="{'ing-height-limit': !showMoreSelectedIngredients}">
+    <ion-chip *ngIf="selectedIngredients.length === 0"
+              color="tertiary" outline>
+      <ion-label>{{'none' + (isMobile ? ' selected' : '')}}</ion-label>
+    </ion-chip>
+    <ion-chip *ngFor="let ing of selectedIngredients"
+              color="tertiary"
+              (click)="deselectIngredient(ing)">
+      <ion-label>{{ing}}</ion-label>
+      <ion-icon name="close-circle"></ion-icon>
+    </ion-chip>
+  </ion-card-content>
+  <ion-button (click)="toggleMoreSelectedIngredients()"
+              size="small"
+              expand="block"
+              color="tertiary">{{ showMoreSelectedIngredients ? 'hide' : 'expand'}}</ion-button>
+</ion-card>
+<ion-card>
+  <ion-card-header>
+    <ion-card-subtitle>Possible recipes:</ion-card-subtitle>
+  </ion-card-header>
+  <ion-list>
+    <ng-container *ngFor="let recipe of book.recipes | recipe: selectedIngredients:true">
+      <ion-item>
+        <ion-badge slot="start" color="danger" *ngIf="recipe.missingIngredients.length > 0">
+          -{{recipe.missingIngredients.length}}
+        </ion-badge>
+        <ion-badge slot="start" color="success" *ngIf="recipe.missingIngredients.length === 0">
+          <ion-icon name="checkmark-circle-outline"></ion-icon>
+        </ion-badge>
+        <ion-label>{{recipe.name}}</ion-label>
+        <ion-button slot="end" color="primary" (click)="recipe.toggleExpand()">
+          <ion-icon name="chevron-{{recipe.expanded ? 'up' : 'down'}}-outline"></ion-icon>
+        </ion-button>
+      </ion-item>
+      <ion-card-header *ngIf="recipe.expanded">
+        <ion-card-title *ngIf="!isMobile">{{recipe.name}} (pg {{recipe.page}})</ion-card-title>
+        <ion-card-subtitle *ngIf="isMobile">{{recipe.name}} (pg {{recipe.page}})</ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content *ngIf="recipe.expanded">
+        <ion-chip *ngFor="let ing of recipe.availableIngredients"
+                  color="tertiary"
+                  (click)="deselectIngredient(ing)">
+          <ion-label>{{ing}}</ion-label>
+          <ion-icon name="close-circle"></ion-icon>
+        </ion-chip>
+        <ion-chip *ngFor="let ing of recipe.missingIngredients"
+                  color="danger"
+                  (click)="selectIngredient(ing)" outline>
+          <ion-label>{{ing}}</ion-label>
+        </ion-chip>
+      </ion-card-content>
+    </ng-container>
+  </ion-list>
+  <ion-card-header>
+    <ion-card-subtitle>No ingredients for the following:</ion-card-subtitle>
+  </ion-card-header>
+  <ion-list>
+    <ng-container *ngFor="let recipe of book.recipes | recipe: selectedIngredients:false">
+      <ion-item>
+        <ion-badge slot="start" color="danger" *ngIf="recipe.missingIngredients.length > 0">
+          -{{recipe.missingIngredients.length}}
+        </ion-badge>
+        <ion-label>{{recipe.name}}</ion-label>
+        <ion-button slot="end" color="primary" (click)="recipe.toggleExpand()">
+          <ion-icon name="chevron-{{recipe.expanded ? 'up' : 'down'}}-outline"></ion-icon>
+        </ion-button>
+      </ion-item>
+      <ion-card-header *ngIf="recipe.expanded">
+        <ion-card-subtitle *ngIf="isMobile">{{recipe.name}} (pg {{recipe.page}})</ion-card-subtitle>
+        <ion-card-title *ngIf="!isMobile">{{recipe.name}} (pg {{recipe.page}})</ion-card-title>
+      </ion-card-header>
+      <ion-card-content *ngIf="recipe.expanded">
+        <ion-chip *ngFor="let ing of recipe.missingIngredients"
+                  color="danger"
+                  (click)="selectIngredient(ing)" outline>
+          <ion-label>{{ing}}</ion-label>
+        </ion-chip>
+      </ion-card-content>
+    </ng-container>
+  </ion-list>
+</ion-card>

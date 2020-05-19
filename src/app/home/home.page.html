@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Jigsaw Chef
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card class="header-card">
+    <img src="assets/img/jsc_secondary_transparent.png" />
+    <img src="assets/img/jsc_primary_transparent.png" />
+    <img src="assets/img/jsc_tertiary_transparent.png" />
+  </ion-card>
+  <ion-card [ngClass]="{'browser-card': !isMobile}">
+    <ion-card-header class="page-header">
+      <ion-card-title *ngIf="!isMobile">Jigsaw Chef</ion-card-title>
+      <ion-card-subtitle *ngIf="isMobile">Jigsaw Chef</ion-card-subtitle>
+    </ion-card-header>
+    <ion-card-content>
+      Not sure what to make with what ingredients you have?
+      Choose a recipe book from the menu to get started.
+      As you select ingredients, the list of recipes from the book will filter down and show you what you can make,
+      or what you're missing to complete a recipe.
+    </ion-card-content>
+    <ion-card-content>
+      The full recipes are not listed here, but you can find each book through a link on its page.
+      More books to come!
+    </ion-card-content>
+    <ion-card-content>
+      Questions? Comments? Contact
+      <a href="mailto:{{helpEmail}}">{{helpEmail}}</a>.
+      You can also check out how this site was made and some future plans over at
+      <a href="https://www.github.com/ultrapabs/jigsaw-chef" target="_blank">Github</a>.
+    </ion-card-content>
+  </ion-card>
+</ion-content>
