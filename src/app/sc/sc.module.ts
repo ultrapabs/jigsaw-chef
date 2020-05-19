@@ -2,8 +2,8 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
-import { RfcfesPageRoutingModule } from './rfcfes-routing.module';
-import { RfcfesPage } from './rfcfes.page';
+import { ScPageRoutingModule } from './sc-routing.module';
+import { ScPage } from './sc.page';
 import { SearchComponentsModule } from '../_module/search-components.module';
 
 @NgModule({
@@ -12,10 +12,10 @@ import { SearchComponentsModule } from '../_module/search-components.module';
     FormsModule,
     IonicModule,
     SearchComponentsModule,
-    RfcfesPageRoutingModule
+    ScPageRoutingModule
   ],
   declarations: [
-    RfcfesPage
+    ScPage
   ]
 })
-export class RfcfesPageModule {}
+export class ScPageModule {}

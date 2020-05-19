@@ -7,7 +7,8 @@ import { Router, ActivatedRoute, NavigationExtras } from '@angular/router';
 export class RedirectService {
 
   allowedRoutes: string[] = [
-    'rfcfes'
+    'rfcfes',
+    'sc'
   ];
   alreadyRedirected: boolean;
 

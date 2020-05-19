@@ -1,0 +1,45 @@
+{
+  "title": "Smuggler's Cove",
+  "key": "sc",
+  "description": "Tiki drinks and their history by Martin Cate with Rebecca Cate.",
+  "image_path": "/assets/img/sc.jpg",
+  "url": "http://www.smugglerscovesf.com/",
+  "recipe_list": [
+    {
+      "name": "aku aku",
+      "page": 39,
+      "ingredient_list": [
+        "pineapple",
+        "mint leaf",
+        "lime juice",
+        "demerara syrup",
+        "peach liqueur",
+        "blended lightly aged rum"
+      ],
+      "tags": []
+    },
+    {
+      "name": "pupule",
+      "page": 39,
+      "ingredient_list": [
+        "orange peel",
+        "lime juice",
+        "orange juice",
+        "cinnamon syrup",
+        "vanilla syrup",
+        "st. elizabeth allspice dram",
+        "column still aged rum",
+        "angostura bitters"
+      ],
+      "tags": []
+    },
+    {
+      "name": "template",
+      "page": 0,
+      "ingredient_list": [
+        ""
+      ],
+      "tags": []
+    }
+  ]
+}

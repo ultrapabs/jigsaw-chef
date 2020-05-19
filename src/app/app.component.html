@@ -11,13 +11,30 @@
     <ion-content>
       <ion-list>
         <ion-menu-toggle>
-          <ion-item [routerLink]="'/'">
+          <ion-item [routerLink]="'/'" lines="none">
             <ion-label>Home</ion-label>
           </ion-item>
         </ion-menu-toggle>
+        <ion-item class="spacer-item" lines="none"></ion-item>
+        <ion-item lines="full">
+          <ion-icon name="pizza-outline" slot="start"></ion-icon>
+          <ion-label class="book-category">Food</ion-label>
+          <ion-icon name="pizza-outline" slot="end"></ion-icon>
+        </ion-item>
         <ion-menu-toggle>
-          <ion-item [routerLink]="'/rfcfes'">
+          <ion-item [routerLink]="'/rfcfes'" lines="none">
             <ion-label>Run Fast. Cook Fast. Eat Slow.</ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+        <ion-item class="spacer-item" lines="none"></ion-item>
+        <ion-item lines="full">
+          <ion-icon name="wine-outline" slot="start"></ion-icon>
+          <ion-label class="book-category">Drinks</ion-label>
+          <ion-icon name="wine-outline" slot="end"></ion-icon>
+        </ion-item>
+        <ion-menu-toggle>
+          <ion-item [routerLink]="'/sc'" lines="none">
+            <ion-label>Smuggler's Cove</ion-label>
           </ion-item>
         </ion-menu-toggle>
       </ion-list>
