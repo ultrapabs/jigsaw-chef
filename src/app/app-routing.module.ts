@@ -10,6 +10,10 @@ const routes: Routes = [
     path: 'rfcfes',
     loadChildren: () => import('./rfcfes/rfcfes.module').then( m => m.RfcfesPageModule)
   },
+  {
+    path: 'sc',
+    loadChildren: () => import('./sc/sc.module').then( m => m.ScPageModule)
+  },
 ];
 
 @NgModule({

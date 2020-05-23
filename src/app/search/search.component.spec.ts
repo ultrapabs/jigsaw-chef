@@ -145,12 +145,12 @@ describe('SearchComponent', () => {
   it('selects a single ingredient correctly', () => {
     let testIngredient = 'banana';
     component.selectedIngredients = ['orange'];
-    spyOn(component, 'clearFilterText');
+    spyOn(component, 'clearIngredientFilterText');
     spyOn(component, 'updateRecipeIngredientLists');
 
     component.selectIngredient(testIngredient);
     expect(component.selectedIngredients.indexOf(testIngredient)).toBe(0);
-    expect(component.clearFilterText).toHaveBeenCalled();
+    expect(component.clearIngredientFilterText).toHaveBeenCalled();
     expect(component.updateRecipeIngredientLists).toHaveBeenCalled();
   });
 
@@ -214,10 +214,26 @@ describe('SearchComponent', () => {
   });
 
   it('clears the filter text', () => {
-    component.filterText = 'something';
+    spyOn(component, 'clearIngredientFilterText');
+    spyOn(component, 'clearRecipeFilterText');
 
     component.clearFilterText();
-    expect(component.filterText).toBe('');
+    expect(component.clearIngredientFilterText).toHaveBeenCalled();
+    expect(component.clearRecipeFilterText).toHaveBeenCalled();
+  });
+
+  it('clears the ingredient filter text', () => {
+    component.ingredientFilterText = 'something';
+
+    component.clearIngredientFilterText();
+    expect(component.ingredientFilterText).toBe('');
+  });
+
+  it('clears the recipe filter text', () => {
+    component.recipeFilterText = 'something';
+
+    component.clearRecipeFilterText();
+    expect(component.recipeFilterText).toBe('');
   });
 
 });

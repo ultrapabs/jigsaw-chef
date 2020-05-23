@@ -42,10 +42,9 @@ Full coverage with Karma/Jasmine. Run with `ng test`.
 
 ### TODO
 - Add tag display/filter in UI.
-- Add recipe filtering by name.
 - Break up Search component into smaller components.
 - Add return types to functions.
 - Prettier error landing page.
 - Do something with book image.
-- Maybe add storing of favorites with cookies.
+- Add "pantry" for storing book-agnostic ingredients for quick access.
 - More books!

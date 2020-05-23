@@ -1,4 +1,4 @@
-# run after build to remove unused SVG files from Ionicons and .DS_Store files
+# run after build to remove unwanted files
 
 # currently used Ionicons
 # rm ./www/svg/logo-github.svg
@@ -15,9 +15,13 @@
 # rm ./www/svg/menu.svg
 # rm ./www/svg/search-outline.svg
 # rm ./www/svg/information-circle-outline.svg
+# rm ./www/svg/wine-outline.svg
+# rm ./www/svg/pizza-outline.svg
 
+# remove .DS_Store files
 find "./www" -name ".DS_Store" -type f -o -name ".DS_Store" -type d
 
+# unused SVG files from Ionicons
 rm ./www/svg/add-circle-outline.svg
 rm ./www/svg/add-circle-sharp.svg
 rm ./www/svg/add-circle.svg
@@ -882,7 +886,6 @@ rm ./www/svg/pin.svg
 rm ./www/svg/pint-outline.svg
 rm ./www/svg/pint-sharp.svg
 rm ./www/svg/pint.svg
-rm ./www/svg/pizza-outline.svg
 rm ./www/svg/pizza-sharp.svg
 rm ./www/svg/pizza.svg
 rm ./www/svg/planet-outline.svg
@@ -1225,7 +1228,6 @@ rm ./www/svg/water.svg
 rm ./www/svg/wifi-outline.svg
 rm ./www/svg/wifi-sharp.svg
 rm ./www/svg/wifi.svg
-rm ./www/svg/wine-outline.svg
 rm ./www/svg/wine-sharp.svg
 rm ./www/svg/wine.svg
 rm ./www/svg/woman-outline.svg
