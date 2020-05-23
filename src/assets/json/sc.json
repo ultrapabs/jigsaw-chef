@@ -12,7 +12,7 @@
         "pineapple",
         "mint leaf",
         "lime juice",
-        "demerara syrup",
+        "sc demerara syrup",
         "peach liqueur",
         "blended lightly aged rum"
       ],
@@ -25,8 +25,8 @@
         "orange peel",
         "lime juice",
         "orange juice",
-        "cinnamon syrup",
-        "vanilla syrup",
+        "sc cinnamon syrup",
+        "sc vanilla syrup",
         "st. elizabeth allspice dram",
         "column still aged rum",
         "angostura bitters"
@@ -34,10 +34,1573 @@
       "tags": []
     },
     {
-      "name": "template",
-      "page": 0,
+      "name": "don's own grog",
+      "page": 40,
       "ingredient_list": [
-        ""
+        "lime juice",
+        "sc demerara syrup",
+        "sc grenadine",
+        "leopold brother's rocky mountain blackberry liqueur",
+        "blended aged rum",
+        "blended lightly aged rum",
+        "black blended rum",
+        "angostura bitters"
+      ],
+      "tags": []
+    },
+    {
+      "name": "port au prince",
+      "page": 40,
+      "ingredient_list": [
+        "lime juice",
+        "pineapple juice",
+        "sc demerara syrup",
+        "sc grenadine",
+        "john d. taylor's velvet falernum",
+        "cane coffey still aged rum",
+        "angostura bitters"
+      ],
+      "tags": []
+    },
+    {
+      "name": "three dots and a dash",
+      "page": 43,
+      "ingredient_list": [
+        "lime juice",
+        "orange juice",
+        "sc honey syrup",
+        "john d. taylor's velvet falernum",
+        "st. elizabeth allspice dram",
+        "cane aoc martinique rhum agricole vieux",
+        "blended aged rum",
+        "angostura bitters"
+      ],
+      "tags": []
+    },
+    {
+      "name": "mexican el diablo",
+      "page": 43,
+      "ingredient_list": [
+        "lime",
+        "lime juice",
+        "creme de cassis",
+        "blanco tequila",
+        "ginger ale"
+      ],
+      "tags": []
+    },
+    {
+      "name": "port light",
+      "page": 44,
+      "ingredient_list": [
+        "egg white",
+        "bourbon",
+        "lemon juice",
+        "sc honey syrup",
+        "sc passion fruit syrup"
+      ],
+      "tags": []
+    },
+    {
+      "name": "demerara dry float",
+      "page": 44,
+      "ingredient_list": [
+        "black blended overproof rum",
+        "lime juice",
+        "lemon juice",
+        "sc passion fruit syrup",
+        "sc demerara syrup",
+        "luxardo maraschino liqueur",
+        "blended aged rum"
+      ],
+      "tags": []
+    },
+    {
+      "name": "jet pilot",
+      "page": 61,
+      "ingredient_list": [
+        "lime juice",
+        "grapefruit juice",
+        "sc cinnamon syrup",
+        "john d. taylor's velvet falernum",
+        "black blended rum",
+        "blended aged rum",
+        "black blended overproof rum",
+        "herbstura"
+      ],
+      "tags": []
+    },
+    {
+      "name": "halekulani cocktail",
+      "page": 61,
+      "ingredient_list": [
+        "lemon juice",
+        "lime juice",
+        "pineapple juice",
+        "sc demerara syrup",
+        "sc grenadine",
+        "bourbon",
+        "angostura bitters"
+      ],
+      "tags": []
+    },
+    {
+      "name": "sidewinder's fang",
+      "page": 62,
+      "ingredient_list": [
+        "sidewinder's fang peel",
+        "lime juice",
+        "orange juice",
+        "sc passion fruit syrup",
+        "seltzer",
+        "blended aged rum",
+        "black blended rum"
+      ],
+      "tags": []
+    },
+    {
+      "name": "hawaiian sunset",
+      "page": 62,
+      "ingredient_list": [
+        "lime juice",
+        "lemon juice",
+        "sc orgeat",
+        "sc grenadine",
+        "vodka"
+      ],
+      "tags": []
+    },
+    {
+      "name": "captain's grog",
+      "page": 65,
+      "ingredient_list": [
+        "lime juice",
+        "grapefruit juice",
+        "maple syrup",
+        "vanilla extract",
+        "almond extract",
+        "seltzer",
+        "john d. taylor's velvet falernum",
+        "pierre ferrand dry curacao",
+        "black blended aged rum",
+        "blended lightly aged rum",
+        "blended aged rum"
+      ],
+      "tags": []
+    },
+    {
+      "name": "suffering bastard",
+      "page": 65,
+      "ingredient_list": [
+        "ginger beer",
+        "lime juice",
+        "sc demerara syrup",
+        "london dry gin",
+        "brandy",
+        "angostura bitters"
+      ],
+      "tags": []
+    },
+    {
+      "name": "merciless virgin",
+      "page": 67,
+      "ingredient_list": [
+        "lemon juice",
+        "seltzer",
+        "cherry heering liqueur",
+        "john d. taylor's velvet falernum",
+        "pierre ferrand dry curacao",
+        "blended lightly aged rum"
+      ],
+      "tags": []
+    },
+    {
+      "name": "saturn",
+      "page": 67,
+      "ingredient_list": [
+        "lemon juice",
+        "sc passion fruit syrup",
+        "sc orgeat",
+        "john d. taylor's velvet falernum",
+        "london dry gin"
+      ],
+      "tags": []
+    },
+    {
+      "name": "tiki bowl",
+      "page": 68,
+      "ingredient_list": [
+        "orange juice",
+        "lime juice",
+        "sc honey syrup",
+        "black blended rum",
+        "black blended overproof rum",
+        "column still aged rum",
+        "herbstura"
+      ],
+      "tags": []
+    },
+    {
+      "name": "hurricane",
+      "page": 68,
+      "ingredient_list": [
+        "lemon juice",
+        "sc passion fruit syrup",
+        "black blended rum"
+      ],
+      "tags": []
+    },
+    {
+      "name": "mundo perdido",
+      "page": 93,
+      "ingredient_list": [
+        "lemon juice",
+        "sc cinnamon syrup",
+        "sc demerara syrup",
+        "apple brandy",
+        "black blended rum"
+      ],
+      "tags": []
+    },
+    {
+      "name": "formidable dragon",
+      "page": 93,
+      "ingredient_list": [
+        "lemon juice",
+        "lime juice",
+        "sc honey syrup",
+        "sc molasses syrup",
+        "amaro di angostura",
+        "blended aged rum",
+        "black blended rum",
+        "pot still lightly aged rum (overproof)",
+        "seltzer"
+      ],
+      "tags": []
+    },
+    {
+      "name": "lei lani volcano 2.0 (a.k.a. lei lani nouveau)",
+      "page": 94,
+      "ingredient_list": [
+        "bundaberg guava soda",
+        "pineapple juice",
+        "lime juice",
+        "sc coconut cream",
+        "blended aged rum"
+      ],
+      "tags": []
+    },
+    {
+      "name": "tradewinds",
+      "page": 94,
+      "ingredient_list": [
+        "lemon juice",
+        "sc coconut cream",
+        "apricot liqueur",
+        "black blended rum",
+        "blended lightly aged rum"
+      ],
+      "tags": []
+    },
+    {
+      "name": "peachtree punch 2.0",
+      "page": 96,
+      "ingredient_list": [
+        "yellow peach or white peach",
+        "orange juice",
+        "lemon juice",
+        "sc coconut cream",
+        "peach liqueur",
+        "blended lightly aged rum",
+        "seltzer"
+      ],
+      "tags": []
+    },
+    {
+      "name": "jungle bird",
+      "page": 96,
+      "ingredient_list": [
+        "pineapple juice",
+        "lime juice",
+        "sc demerara syrup",
+        "campari",
+        "black blended rum"
+      ],
+      "tags": []
+    },
+    {
+      "name": "golden gun",
+      "page": 97,
+      "ingredient_list": [
+        "lime juice",
+        "grapefruit juice",
+        "sc demerara syrup",
+        "apricot liqueur",
+        "blended aged rum",
+        "blended lightly aged rum",
+        "angostura bitters"
+      ],
+      "tags": []
+    },
+    {
+      "name": "hinky dinks fizzy",
+      "page": 97,
+      "ingredient_list": [
+        "sparkling wine",
+        "pineapple juice",
+        "lime juice",
+        "sc passion fruit syrup",
+        "apricot liqueur",
+        "london dry gin",
+        "blended lightly aged rum"
+      ],
+      "tags": []
+    },
+    {
+      "name": "pampanito",
+      "page": 115,
+      "ingredient_list": [
+        "lemon juice",
+        "sc molasses syrup",
+        "seltzer",
+        "st. elizabeth allspice dram",
+        "black blended rum",
+        "angostura bitters"
+      ],
+      "tags": []
+    },
+    {
+      "name": "max's mistake",
+      "page": 115,
+      "ingredient_list": [
+        "lemon juice",
+        "sc passion fruit syrup",
+        "sc honey syrup",
+        "london dry gin",
+        "angostura bitters",
+        "fentimans victorian lemonade"
+      ],
+      "tags": []
+    },
+    {
+      "name": "la guildive",
+      "page": 116,
+      "ingredient_list": [
+        "ginger beer",
+        "lime juice",
+        "licor",
+        "peach liqueur",
+        "blended aged rum",
+        "grated cinnamon"
+      ],
+      "tags": []
+    },
+    {
+      "name": "the twenty seventy swizzle",
+      "page": 116,
+      "ingredient_list": [
+        "lime juice",
+        "sc demerara syrup",
+        "sc honey syrup",
+        "st. elizabeth allspice dram",
+        "column still aged rum",
+        "black blended overproof rum",
+        "herbstura",
+        "grated nutmeg"
+      ],
+      "tags": []
+    },
+    {
+      "name": "shudders in a whisper",
+      "page": 118,
+      "ingredient_list": [
+        "lime juice",
+        "sc passion fruit syrup",
+        "pear liqueur",
+        "drambuie liqueur",
+        "seltzer",
+        "column still aged rum",
+        "peychaud's bitters",
+        "angostura bitters"
+      ],
+      "tags": []
+    },
+    {
+      "name": "cuevas",
+      "page": 118,
+      "ingredient_list": [
+        "sc cinnamon syrup",
+        "punt e mes",
+        "tawny port",
+        "blended aged rum",
+        "bittermens 'elemakule tiki bitters"
+      ],
+      "tags": []
+    },
+    {
+      "name": "norwegian paralysis",
+      "page": 119,
+      "ingredient_list": [
+        "orange juice",
+        "pineapple juice",
+        "lemon juice",
+        "sc demerara syrup",
+        "sc orgeat",
+        "aquavit"
+      ],
+      "tags": []
+    },
+    {
+      "name": "juan ho royale",
+      "page": 119,
+      "ingredient_list": [
+        "champagne or sparkling wine",
+        "lime juice",
+        "sc orgeat",
+        "blue curacao",
+        "john d. taylor's velvet falernum",
+        "tequila blanco"
+      ],
+      "tags": []
+    },
+    {
+      "name": "chartreuse swizzle",
+      "page": 120,
+      "ingredient_list": [
+        "pineapple juice",
+        "lime juice",
+        "john d. taylor's velvet falernum",
+        "green chartreuse"
+      ],
+      "tags": []
+    },
+    {
+      "name": "roselita",
+      "page": 120,
+      "ingredient_list": [
+        "seltzer",
+        "lime juice",
+        "sc orgeat",
+        "sc hibiscus liqueur",
+        "pear liqueur",
+        "column still aged rum",
+        "peychaud's bitters"
+      ],
+      "tags": []
+    },
+    {
+      "name": "center of the galaxy",
+      "page": 121,
+      "ingredient_list": [
+        "lime juice",
+        "sc demerara syrup",
+        "sc honey syrup",
+        "st. george raspberry liqueur",
+        "blended aged rum",
+        "ground cinnamon"
+      ],
+      "tags": []
+    },
+    {
+      "name": "callaloo cooler",
+      "page": 121,
+      "ingredient_list": [
+        "seltzer",
+        "lime juice",
+        "sc cinnamon syrup",
+        "cherry heering",
+        "blended lightly aged rum",
+        "angostura bitters"
+      ],
+      "tags": []
+    },
+    {
+      "name": "top notch volcano",
+      "page": 134,
+      "ingredient_list": [
+        "lime juice",
+        "pineapple juice",
+        "passion fruit puree",
+        "sc demerara syrup",
+        "luxardo maraschino liqueur",
+        "blended lightly aged rum",
+        "blended aged rum"
+      ],
+      "tags": []
+    },
+    {
+      "name": "the naked ape",
+      "page": 134,
+      "ingredient_list": [
+        "lemon juice",
+        "sc cinnamon syrup",
+        "giffard banane du bresil banana liqueur",
+        "black blended rum",
+        "pot still lightly aged rum (overproof)",
+        "angostura bitters"
+      ],
+      "tags": []
+    },
+    {
+      "name": "swizzle francais",
+      "page": 136,
+      "ingredient_list": [
+        "lime juice",
+        "martinique sugarcane syrup",
+        "st. elizabeth allspice dram",
+        "cane aoc martinique rhum agricole vieux",
+        "ground nutmeg"
+      ],
+      "tags": []
+    },
+    {
+      "name": "sparkling mai tai",
+      "page": 136,
+      "ingredient_list": [
+        "lime juice",
+        "sc orgeat",
+        "pierre ferrand dry curacao",
+        "black blended overproof rum",
+        "blended aged rum",
+        "sparkling wine"
+      ],
+      "tags": []
+    },
+    {
+      "name": "the ernesto",
+      "page": 137,
+      "ingredient_list": [
+        "ting grapefruit soda",
+        "lime juice",
+        "apricot liqueur",
+        "sc honey syrup",
+        "tequila blanco",
+        "herbstura"
+      ],
+      "tags": []
+    },
+    {
+      "name": "the sexpert",
+      "page": 137,
+      "ingredient_list": [
+        "lemon juice",
+        "sc passion fruit syrup",
+        "john d. taylor's velvet falernum",
+        "peruvian pisco",
+        "gin",
+        "bittermens burlesque bitters"
+      ],
+      "tags": []
+    },
+    {
+      "name": "smuggler's rum barrel",
+      "page": 139,
+      "ingredient_list": [
+        "lime juice",
+        "pineapple juice",
+        "mystery ingredient #1",
+        "mystery ingredient #2",
+        "mystery overproof rum",
+        "angostura bitters"
+      ],
+      "tags": []
+    },
+    {
+      "name": "hana reviver",
+      "page": 139,
+      "ingredient_list": [
+        "lemon juice",
+        "sc passion fruit honey",
+        "li hing mui powder",
+        "seltzer",
+        "maraschino liqueur",
+        "pot still unaged rum"
+      ],
+      "tags": []
+    },
+    {
+      "name": "kaiteur swizzle",
+      "page": 140,
+      "ingredient_list": [
+        "lime juice",
+        "maple syrup",
+        "john d. taylor's velvet falernum",
+        "blended aged rum (guyana)",
+        "angostura bitters"
+      ],
+      "tags": []
+    },
+    {
+      "name": "the expedition",
+      "page": 140,
+      "ingredient_list": [
+        "lime juice",
+        "sc cinnamon syrup",
+        "sc honey syrup",
+        "sc vanilla syrup",
+        "seltzer",
+        "bittermens new orleans coffee liqueur",
+        "black blended rum",
+        "bourbon"
+      ],
+      "tags": []
+    },
+    {
+      "name": "the undead gentleman",
+      "page": 142,
+      "ingredient_list": [
+        "absinthe blanc",
+        "lime juice",
+        "grapefruit juice",
+        "sc cinnamon syrup",
+        "john d. taylor's velvet falernum",
+        "black blended overproof rum",
+        "blended aged rum",
+        "angostura bitters"
+      ],
+      "tags": []
+    },
+    {
+      "name": "the dead reckoning",
+      "page": 142,
+      "ingredient_list": [
+        "seltzer",
+        "lemon juice",
+        "pineapple juice",
+        "maple syrup",
+        "sc vanilla brandy",
+        "tawny port",
+        "blended aged rum",
+        "angostura bitters"
+      ],
+      "tags": []
+    },
+    {
+      "name": "falinum",
+      "page": 144,
+      "ingredient_list": [
+        "lemon juice",
+        "sc coconut cream",
+        "seltzer",
+        "john d. taylor's velvet falernum",
+        "column still aged rum",
+        "orange bitters"
+      ],
+      "tags": []
+    },
+    {
+      "name": "humuhumunukunukuapua'a",
+      "page": 144,
+      "ingredient_list": [
+        "lemon juice",
+        "pineapple juice",
+        "sc orgeat",
+        "gin",
+        "peychaud's bitters"
+      ],
+      "tags": []
+    },
+    {
+      "name": "finkelgrog",
+      "page": 145,
+      "ingredient_list": [
+        "lime juice",
+        "grapefruit juice",
+        "sc orgeat",
+        "napa wine syrup",
+        "licor",
+        "blended lightly aged rum",
+        "black blended rum",
+        "seltzer",
+        "ground cinnamon"
+      ],
+      "tags": []
+    },
+    {
+      "name": "for pete's sake",
+      "page": 145,
+      "ingredient_list": [
+        "lime juice",
+        "sc demerara syrup",
+        "sc hibiscus liqueur",
+        "cherry heering",
+        "peruvian pisco",
+        "angostura bitters"
+      ],
+      "tags": []
+    },
+    {
+      "name": "arrack punch",
+      "page": 163,
+      "ingredient_list": [
+        "lemon juice",
+        "lime juice",
+        "sc demerara syrup",
+        "batavia arrack",
+        "pot still lightly aged rum (overproof)",
+        "carbonated chai tea"
+      ],
+      "tags": []
+    },
+    {
+      "name": "el draque",
+      "page": 163,
+      "ingredient_list": [
+        "mint leaf",
+        "sc demerara syrup",
+        "lime juice",
+        "pot still aged cachaca"
+      ],
+      "tags": []
+    },
+    {
+      "name": "grog",
+      "page": 165,
+      "ingredient_list": [
+        "lime juice",
+        "sc demerara syrup",
+        "rum"
+      ],
+      "tags": []
+    },
+    {
+      "name": "rum flip",
+      "page": 165,
+      "ingredient_list": [
+        "egg",
+        "sc demerara syrup",
+        "blended aged rum"
+      ],
+      "tags": []
+    },
+    {
+      "name": "bombo",
+      "page": 167,
+      "ingredient_list": [
+        "sc demerara syrup",
+        "blended aged rum"
+      ],
+      "tags": []
+    },
+    {
+      "name": "calibogus",
+      "page": 167,
+      "ingredient_list": [
+        "seltzer",
+        "lime juice",
+        "sc molasses syrup",
+        "spruce beer soda extract",
+        "zirbenz stone pine liqueur",
+        "blended aged rum"
+      ],
+      "tags": []
+    },
+    {
+      "name": "mary pickford",
+      "page": 168,
+      "ingredient_list": [
+        "pineapple juice",
+        "sc grenadine",
+        "luxardo maraschino liqueur",
+        "blended lightly aged rum"
+      ],
+      "tags": []
+    },
+    {
+      "name": "daquiri no. 1",
+      "page": 168,
+      "ingredient_list": [
+        "lime juice",
+        "sc demerara syrup",
+        "blended lightly aged rum"
+      ],
+      "tags": []
+    },
+    {
+      "name": "hotel nacional special",
+      "page": 171,
+      "ingredient_list": [
+        "pineapple chunk",
+        "lime juice",
+        "sc demerara syrup",
+        "apricot liqueur",
+        "blended lightly aged rum"
+      ],
+      "tags": []
+    },
+    {
+      "name": "daisy de santiago",
+      "page": 171,
+      "ingredient_list": [
+        "lime juice",
+        "sc demerara syrup",
+        "seltzer",
+        "yellow chartreuse",
+        "blended lightly aged rum"
+      ],
+      "tags": []
+    },
+    {
+      "name": "el presidente",
+      "page": 172,
+      "ingredient_list": [
+        "sc grenadine",
+        "dry vermouth",
+        "pierre ferrand dry curacao",
+        "blended lightly aged rum"
+      ],
+      "tags": []
+    },
+    {
+      "name": "twelve mile limit",
+      "page": 172,
+      "ingredient_list": [
+        "lemon juice",
+        "sc grenadine",
+        "blended lightly aged rum",
+        "rye",
+        "brandy"
+      ],
+      "tags": []
+    },
+    {
+      "name": "parisian blonde",
+      "page": 174,
+      "ingredient_list": [
+        "pierre ferrand dry curacao",
+        "blended aged rum",
+        "sweet cream"
+      ],
+      "tags": []
+    },
+    {
+      "name": "cora middleton",
+      "page": 174,
+      "ingredient_list": [
+        "egg white",
+        "blended aged rum",
+        "lime juice",
+        "sc demerara syrup",
+        "small hand foods raspberry gum syrup"
+      ],
+      "tags": []
+    },
+    {
+      "name": "millionaire cocktail (no. 1)",
+      "page": 175,
+      "ingredient_list": [
+        "lime juice",
+        "sc grenadine",
+        "apricot liqueur",
+        "blck pot still rum or blended aged rum",
+        "sloe gin"
+      ],
+      "tags": []
+    },
+    {
+      "name": "batida de maracuja e coco",
+      "page": 175,
+      "ingredient_list": [
+        "passion fruit puree",
+        "coconut milk",
+        "pot still aged cachaca",
+        "sweetened condensed milk"
+      ],
+      "tags": []
+    },
+    {
+      "name": "wray & ting",
+      "page": 176,
+      "ingredient_list": [
+        "wray & nephew white overproof rum",
+        "ting grapefruit soda"
+      ],
+      "tags": []
+    },
+    {
+      "name": "hibiscus rum punch",
+      "page": 176,
+      "ingredient_list": [
+        "seltzer",
+        "lime juice",
+        "sc hibiscus liqueur",
+        "sc demerara syrup",
+        "blended aged rum (jamaica)"
+      ],
+      "tags": []
+    },
+    {
+      "name": "ti' punch / ti' punch vieux",
+      "page": 179,
+      "ingredient_list": [
+        "martinique sugarcane syrup",
+        "cane aoc martinique rhum agricole blanc or rhum vieux",
+        "lime"
+      ],
+      "tags": []
+    },
+    {
+      "name": "barbados rum punch",
+      "page": 179,
+      "ingredient_list": [
+        "lime juice",
+        "sc demerara syrup",
+        "blended aged rum (barbados)",
+        "angostura bitters"
+      ],
+      "tags": []
+    },
+    {
+      "name": "jamaican milk punch",
+      "page": 180,
+      "ingredient_list": [
+        "whole milk",
+        "heavy whipping cream",
+        "sc demerara syrup",
+        "black blended rum (jamaica)",
+        "vanilla extract",
+        "angostura bitters"
+      ],
+      "tags": []
+    },
+    {
+      "name": "corn and oil",
+      "page": 180,
+      "ingredient_list": [
+        "john d. taylor's velvet falernum",
+        "blended aged rum (barbados)",
+        "angostura bitters"
+      ],
+      "tags": []
+    },
+    {
+      "name": "queen's park swizzle",
+      "page": 181,
+      "ingredient_list": [
+        "mint leaf",
+        "lime juice",
+        "sc demerara syrup",
+        "black blended rum",
+        "angostura bitters"
+      ],
+      "tags": []
+    },
+    {
+      "name": "the chadburn",
+      "page": 201,
+      "ingredient_list": [
+        "tawny port",
+        "pear liqueur",
+        "blended aged rum",
+        "bittermens xocolatl mole bitters"
+      ],
+      "tags": []
+    },
+    {
+      "name": "a wish for grace",
+      "page": 201,
+      "ingredient_list": [
+        "lemon juice",
+        "2:1 simple syrup",
+        "pierre ferrand dry curacao",
+        "pot still lightly aged rum (new england)",
+        "blandy's 5 year verdelho madeira",
+        "angostura bitters"
+      ],
+      "tags": []
+    },
+    {
+      "name": "hot buttered rum",
+      "page": 202,
+      "ingredient_list": [
+        "ground cinnamon",
+        "ground nutmeg",
+        "ground black pepper",
+        "ground clove",
+        "ground allspice",
+        "ground anise seed",
+        "butter",
+        "golden brown sugar",
+        "brer rabbit mild molasses",
+        "vanilla extract",
+        "blended aged rum",
+        "water"
+      ],
+      "tags": []
+    },
+    {
+      "name": "abricot vieux",
+      "page": 203,
+      "ingredient_list": [
+        "apricot liqueur",
+        "cane aoc martinique rhum agricole vieux",
+        "angostura bitters",
+        "orange bitters"
+      ],
+      "tags": []
+    },
+    {
+      "name": "paniolo old-fashioned",
+      "page": 203,
+      "ingredient_list": [
+        "li hing mui syrup",
+        "blended aged rum",
+        "angostura bitters"
+      ],
+      "tags": []
+    },
+    {
+      "name": "port royal",
+      "page": 204,
+      "ingredient_list": [
+        "lime juice",
+        "sc jerk syrup",
+        "blended lightly aged rum",
+        "wray & nephew white overproof rum",
+        "sc hellfire tincture"
+      ],
+      "tags": []
+    },
+    {
+      "name": "kingston palaka",
+      "page": 204,
+      "ingredient_list": [
+        "lemon juice",
+        "li hing mui powder",
+        "drambuie",
+        "blended aged rum (jamaica)"
+      ],
+      "tags": []
+    },
+    {
+      "name": "donn day afternoon",
+      "page": 206,
+      "ingredient_list": [
+        "lime juice",
+        "sc cinnamon syrup",
+        "stiegl-radler grapefruit beer",
+        "cane aoc martinique rhum agricole blanc"
+      ],
+      "tags": []
+    },
+    {
+      "name": "baie du galion",
+      "page": 206,
+      "ingredient_list": [
+        "green chartreuse",
+        "drambuie",
+        "cane aoc martinique rhum agricole blanc"
+      ],
+      "tags": []
+    },
+    {
+      "name": "agricole guava cooler",
+      "page": 209,
+      "ingredient_list": [
+        "bundaberg guava soda",
+        "lime juice",
+        "licor 43 spiced liqueur",
+        "cane aoc martinique rhum agricole blanc",
+        "angostura bitters"
+      ],
+      "tags": []
+    },
+    {
+      "name": "richard sealebach",
+      "page": 209,
+      "ingredient_list": [
+        "pierre ferrand dry curacao",
+        "r. l. seale 10 year rum",
+        "angostura bitters",
+        "peychaud's bitters",
+        "champagne"
+      ],
+      "tags": []
+    },
+    {
+      "name": "cosa nostra #2",
+      "page": 210,
+      "ingredient_list": [
+        "lemon juice",
+        "amaro averna",
+        "blended lightly aged rum",
+        "angostura bitters",
+        "ginger ale"
+      ],
+      "tags": []
+    },
+    {
+      "name": "spontaneous rumbustion",
+      "page": 210,
+      "ingredient_list": [
+        "lemon juice",
+        "sc honey syrup",
+        "black blended overproof rum",
+        "pot still lightly aged rum (overproof)",
+        "water"
+      ],
+      "tags": []
+    },
+    {
+      "name": "boo loo",
+      "page": 249,
+      "ingredient_list": [
+        "pineapple chunk",
+        "pineapple juice",
+        "lime juice",
+        "sc honey syrup",
+        "blended aged rum",
+        "column still aged rum",
+        "black blended rum",
+        "black blended overproof rum",
+        "seltzer"
+      ],
+      "tags": []
+    },
+    {
+      "name": "caribeño",
+      "page": 249,
+      "ingredient_list": [
+        "coconut water",
+        "sc demerara syrup",
+        "column still lightly aged rum or london dry gin"
+      ],
+      "tags": []
+    },
+    {
+      "name": "monk's respite",
+      "page": 251,
+      "ingredient_list": [
+        "coconut water",
+        "lemon juice",
+        "sc honey syrup",
+        "yellow chartreuse",
+        "broker's gin",
+        "seltzer",
+        "orange bitters"
+      ],
+      "tags": []
+    },
+    {
+      "name": "the mastadon",
+      "page": 251,
+      "ingredient_list": [
+        "pineapple juice",
+        "lime juice",
+        "passion fruit puree",
+        "licor 43",
+        "maraschino liqueur",
+        "blended aged rum",
+        "bourbon",
+        "peychaud's bitters"
+      ],
+      "tags": []
+    },
+    {
+      "name": "piñata",
+      "page": 252,
+      "ingredient_list": [
+        "pineapple juice",
+        "lemon juice",
+        "sc demerara syrup",
+        "ginger liqueur",
+        "st. elizabeth allspice dram",
+        "black blended rum",
+        "blended lightly aged rum"
+      ],
+      "tags": []
+    },
+    {
+      "name": "bumboat",
+      "page": 252,
+      "ingredient_list": [
+        "pineapple juice",
+        "lemon juice",
+        "sc cinnamon syrup",
+        "rye",
+        "lightly aged rum",
+        "almond extract",
+        "bittermens 'elemakule tiki bitters",
+        "black blended overproof rum"
+      ],
+      "tags": []
+    },
+    {
+      "name": "planter's punch",
+      "page": 258,
+      "ingredient_list": [
+        "lime juice",
+        "sc demerara syrup",
+        "st. elizabeth allspice dram",
+        "blended aged rum (jamaica)",
+        "angostura bitters"
+      ],
+      "tags": []
+    },
+    {
+      "name": "mai tai",
+      "page": 261,
+      "ingredient_list": [
+        "lime juice",
+        "sc mai tai rich simple syrup",
+        "sc orgeat",
+        "pierre ferrand dry curacao",
+        "blended aged rum"
+      ],
+      "tags": []
+    },
+    {
+      "name": "doctor funk",
+      "page": 266,
+      "ingredient_list": [
+        "lemon juice",
+        "sc grenadine",
+        "lime juice",
+        "sc demerara syrup",
+        "herbsaint",
+        "black pot still rum",
+        "seltzer"
+      ],
+      "tags": []
+    },
+    {
+      "name": "zombie",
+      "page": 268,
+      "ingredient_list": [
+        "lime juice",
+        "grapefruit juice",
+        "sc cinnamon syrup",
+        "sc grenadine",
+        "john d. taylor's velvet falernum",
+        "blended aged rum",
+        "column still aged rum",
+        "black blended overproof rum",
+        "herbstura"
+      ],
+      "tags": []
+    },
+    {
+      "name": "navy grog",
+      "page": 271,
+      "ingredient_list": [
+        "lime juice",
+        "grapefruit juice",
+        "sc demerara syrup",
+        "st. elizabeth allspice dram",
+        "pot still lightly aged rum (overproof)",
+        "blended lightly aged rum",
+        "column still lightly aged rum"
+      ],
+      "tags": []
+    },
+    {
+      "name": "scorpion",
+      "page": 272,
+      "ingredient_list": [
+        "lime juice",
+        "orange juice",
+        "sc demerara syrup",
+        "sc orgeat",
+        "brandy",
+        "london dry gin",
+        "blended lightly aged rum"
+      ],
+      "tags": []
+    },
+    {
+      "name": "fog cutter",
+      "page": 275,
+      "ingredient_list": [
+        "lemon juice",
+        "orange juice",
+        "sc orgeat",
+        "pisco",
+        "gin",
+        "blended lightly aged rum",
+        "oloroso sherry"
+      ],
+      "tags": []
+    },
+    {
+      "name": "singapore sling",
+      "page": 276,
+      "ingredient_list": [
+        "seltzer",
+        "lemon juice",
+        "sc demerara syrup",
+        "cherry heering liqueur",
+        "benedictine",
+        "london dry gin",
+        "angostura bitters",
+        "orange bitters"
+      ],
+      "tags": []
+    },
+    {
+      "name": "hondo hattie's jungle punch!",
+      "page": 311,
+      "ingredient_list": [
+        "lemon juice",
+        "sc honey syrup",
+        "blue curacao",
+        "tawny port",
+        "john d. taylor's velvet falernum",
+        "pear liqueur",
+        "blended aged rum",
+        "angostura bitters"
+      ],
+      "tags": []
+    },
+    {
+      "name": "kahiko punch",
+      "page": 311,
+      "ingredient_list": [
+        "lime juice",
+        "sc passion fruit honey",
+        "sc cinnamon syrup",
+        "sc hibiscus liqueur",
+        "pot still unaged rum",
+        "bittermens 'elemakule tiki bitters"
+      ],
+      "tags": []
+    },
+    {
+      "name": "triumvirate punch",
+      "page": 312,
+      "ingredient_list": [
+        "lime juice",
+        "sc passion fruit honey",
+        "st. elizabeth allspice dram",
+        "pot still unaged rum",
+        "angostura bitters",
+        "grated nutmeg"
+      ],
+      "tags": []
+    },
+    {
+      "name": "eureka punch",
+      "page": 312,
+      "ingredient_list": [
+        "lemon juice",
+        "sc honey syrup",
+        "yellow chartreuse",
+        "column still aged rum",
+        "angostura bitters",
+        "ginger ale"
+      ],
+      "tags": []
+    },
+    {
+      "name": "yuletidal wave",
+      "page": 313,
+      "ingredient_list": [
+        "pineapple juice",
+        "lemon juice",
+        "pear liqueur",
+        "licor 43",
+        "st. elizabeth allspice dram",
+        "brandy",
+        "bourbon",
+        "column still aged rum"
+      ],
+      "tags": []
+    },
+    {
+      "name": "rumbustion punch",
+      "page": 313,
+      "ingredient_list": [
+        "lime juice",
+        "sc demerara syrup",
+        "sc cinnamon syrup",
+        "blended aged rum",
+        "blended lightly aged rum",
+        "herbstura"
+      ],
+      "tags": []
+    },
+    {
+      "name": "puka punch",
+      "page": 318,
+      "ingredient_list": [
+        "lime juice",
+        "orange juice",
+        "pineapple juice",
+        "sc honey syrup",
+        "sc passion fruit syrup",
+        "john d. taylor's velvet falernum",
+        "blended aged rum",
+        "blended lightly aged rum",
+        "black blended rum",
+        "angostura bitters",
+        "black blended overproof rum"
+      ],
+      "tags": []
+    },
+    {
+      "name": "2:1 simple syrup",
+      "page": 324,
+      "ingredient_list": [
+        "water",
+        "granulated sugar"
+      ],
+      "tags": []
+    },
+    {
+      "name": "sc demerara syrup",
+      "page": 324,
+      "ingredient_list": [
+        "water",
+        "demerara sugar",
+        "granulated sugar"
+      ],
+      "tags": []
+    },
+    {
+      "name": "sc honey syrup",
+      "page": 325,
+      "ingredient_list": [
+        "honey",
+        "water"
+      ],
+      "tags": []
+    },
+    {
+      "name": "sc passion fruit syrup",
+      "page": 325,
+      "ingredient_list": [
+        "funkin passion fruit puree",
+        "2:1 simple syrup"
+      ],
+      "tags": []
+    },
+    {
+      "name": "sc passion fruit honey",
+      "page": 325,
+      "ingredient_list": [
+        "funkin passion fruit puree",
+        "honey"
+      ],
+      "tags": []
+    },
+    {
+      "name": "sc mai tai rich simple syrup",
+      "page": 326,
+      "ingredient_list": [
+        "water",
+        "demerara sugar",
+        "vanilla extract",
+        "salt"
+      ],
+      "tags": []
+    },
+    {
+      "name": "sc vanilla syrup",
+      "page": 326,
+      "ingredient_list": [
+        "water",
+        "granulated sugar",
+        "vanilla bean"
+      ],
+      "tags": []
+    },
+    {
+      "name": "sc cinnamon syrup",
+      "page": 327,
+      "ingredient_list": [
+        "water",
+        "cinnamon stick",
+        "granulated sugar"
+      ],
+      "tags": []
+    },
+    {
+      "name": "sc molasses syrup",
+      "page": 327,
+      "ingredient_list": [
+        "water",
+        "granulated sugar",
+        "brer rabbit mild molasses"
+      ],
+      "tags": []
+    },
+    {
+      "name": "sc grenadine",
+      "page": 328,
+      "ingredient_list": [
+        "pom wonderful pomegranate juice",
+        "granulated sugar"
+      ],
+      "tags": []
+    },
+    {
+      "name": "sc coconut cream",
+      "page": 328,
+      "ingredient_list": [
+        "unsweetened coconut milk",
+        "salt",
+        "2:1 simple syrup"
+      ],
+      "tags": []
+    },
+    {
+      "name": "sc jerk syrup",
+      "page": 329,
+      "ingredient_list": [
+        "dried thyme",
+        "ground allspice",
+        "ground black pepper",
+        "ground cinnamon",
+        "ground nutmeg",
+        "cayenne pepper",
+        "salt",
+        "water",
+        "granulated sugar"
+      ],
+      "tags": []
+    },
+    {
+      "name": "sc orgeat",
+      "page": 330,
+      "ingredient_list": [
+        "blanched almond",
+        "water",
+        "granulated sugar",
+        "rose water",
+        "orange flower water",
+        "column still lightly aged rum"
+      ],
+      "tags": []
+    },
+    {
+      "name": "sc hibiscus liqueur",
+      "page": 331,
+      "ingredient_list": [
+        "ginger",
+        "whole clove",
+        "blended lightly aged rum",
+        "dried hibiscus flower",
+        "honey",
+        "2:1 simple syrup"
+      ],
+      "tags": []
+    },
+    {
+      "name": "sc hellfire tincture",
+      "page": 332,
+      "ingredient_list": [
+        "hot chile, habanero pepper, fresno pepper, or jalapeño pepper",
+        "dry white wine",
+        "brandy"
+      ],
+      "tags": []
+    },
+    {
+      "name": "li hing mui syrup",
+      "page": 332,
+      "ingredient_list": [
+        "li hing mui powder",
+        "granulated sugar",
+        "water"
       ],
       "tags": []
     }

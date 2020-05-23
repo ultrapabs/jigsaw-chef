@@ -18,7 +18,8 @@ export class SearchComponent implements OnInit {
   allIngredients: string[];
   selectedIngredients: string[];
   bookNotFound: boolean;
-  filterText: string;
+  ingredientFilterText: string;
+  recipeFilterText: string;
   isMobile: boolean;
   showMoreIngredients: boolean;
   showMoreSelectedIngredients: boolean;
@@ -75,7 +76,7 @@ export class SearchComponent implements OnInit {
     } else {
       this.selectedIngredients = this.selectedIngredients.concat([ingredient]);
       this.selectedIngredients.sort();
-      this.clearFilterText();
+      this.clearIngredientFilterText();
       this.updateRecipeIngredientLists();
     }
   }
@@ -105,6 +106,15 @@ export class SearchComponent implements OnInit {
   }
 
   clearFilterText() {
-    this.filterText = '';
+    this.clearIngredientFilterText();
+    this.clearRecipeFilterText();
+  }
+
+  clearIngredientFilterText() {
+    this.ingredientFilterText = '';
+  }
+
+  clearRecipeFilterText() {
+    this.recipeFilterText = '';
   }
 }

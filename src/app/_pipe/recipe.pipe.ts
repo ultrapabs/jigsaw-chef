@@ -6,13 +6,17 @@ import { Recipe } from '../_model/recipe';
 })
 export class RecipePipe implements PipeTransform {
 
-  transform(recipeList: Recipe[], selectedIngredients: string[], atLeastOneIngredient: boolean, ...args: any[]): Recipe[] {
+  transform(recipeList: Recipe[], selectedIngredients: string[], atLeastOneIngredient: boolean, filterText: string, ...args: any[]): Recipe[] {
     let filteredList;
 
     if (atLeastOneIngredient) {
       filteredList = recipeList.filter(recipe => recipe.availableIngredients.length > 0);
     } else {
       filteredList = recipeList.filter(recipe => recipe.availableIngredients.length === 0);
+    }
+
+    if (filterText != null && filterText.trim().length > 0) {
+      filteredList = filteredList.filter(recipe => recipe.name.toLowerCase().indexOf(filterText.trim().toLowerCase()) > -1);
     }
 
     filteredList.sort((a, b) => {
